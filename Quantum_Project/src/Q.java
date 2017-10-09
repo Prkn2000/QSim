@@ -26,6 +26,7 @@ public class Q {
 		beta = betaPrime;
 	}
 	
+	//Must implement complex number class first
 	public void PauliY(){
 		alpha*=Math.sqrt(-1);
 		beta*=-Math.sqrt(-1);
