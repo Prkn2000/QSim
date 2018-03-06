@@ -56,31 +56,26 @@ public class Q {
 			return false;
 	}
 	
-	
 	public void cNOT(Q qubit){
 			if(qubit.Read())
 				this.NOT();
 	}
-	
 	
 	public void cHadamard(Q qubit){
 		if(qubit.Read())
 			this.Hadamard();
 	}
 	
-	
 	public void cY(Q qubit){
 		if(qubit.Read())
 			this.PauliY();
 	}
 	
-	
 	public void cZ(Q qubit){
 		if(qubit.Read())
 			this.PauliZ();
 	}
-	
-	
+		
 	public void cSwap(Q qs, Q qubit){
 		if(qubit.Read())
 			this.Swap(qs);
@@ -94,5 +89,4 @@ public class Q {
 	public String toString(){
 		return String.format("%.2f|0> + %.2f|1>\n", alpha, beta);
 		}
-	
 }
