@@ -117,7 +117,6 @@ public class Q_Sim{
 						System.out.printf("Qubit q%d = "+q[index], index);
 						System.out.printf("Qubit q%d = "+q[index2], index2);
 						break;
-					
 					}
 					break;
 					
@@ -125,8 +124,6 @@ public class Q_Sim{
 					System.exit(0);
 					break;
 			}
-			
 		}
 	}
 }
-	
