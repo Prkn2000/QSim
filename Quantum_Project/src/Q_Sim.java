@@ -9,7 +9,7 @@ public class Q_Sim{
 	public static void main(String [] args){
 			Q[] q = new Q[128];
 			int i=0;
-			int index = -1, index2 = -1, bet = 0;
+			int index = -1, index2 = -1, beta = 0;
 			in = new Scanner(System.in);
 			System.out.println("Welcome to Q-Sim. Please input data. Press '?' for a list of commands");
 			String str = "";
@@ -31,9 +31,9 @@ public class Q_Sim{
 					break;
 				
 				case "new":
-					bet = Integer.parseInt(cmd[1]);
-					if(bet==1||bet==0){
-						q[i++] = new Q(1-bet, bet);
+					beta = Integer.parseInt(cmd[1]);
+					if(beta==1||beta==0){
+						q[i++] = new Q(1-beta, beta);
 						System.out.printf("New qubit q%d = "+q[i-1], i-1);
 					}
 					break;
