@@ -88,5 +88,5 @@ public class Q {
 	
 	public String toString(){
 		return String.format("%.2f|0> + %.2f|1>\n", alpha, beta);
-		}
+	}
 }
